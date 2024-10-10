@@ -12,13 +12,17 @@ const SheetTrigger = SheetPrimitive.Trigger
 
 const SheetClose = SheetPrimitive.Close
 
-const SheetPortal = ({
-  className,
-  ...props
-}: SheetPrimitive.DialogPortalProps) => (
-  <SheetPrimitive.Portal className={cn(className)} {...props} />
+interface ExtendedDialogPortalProps extends SheetPrimitive.DialogPortalProps {
+  className?: string;
+}
+
+const SheetPortal = ({ className, children, ...props }: ExtendedDialogPortalProps) => (
+  <SheetPrimitive.DialogPortal {...props}>
+    <div className={cn("fixed inset-0 z-50 flex items-center justify-center", className)}>
+      {children}
+    </div>
+  </SheetPrimitive.DialogPortal>
 )
-SheetPortal.displayName = SheetPrimitive.Portal.displayName
 
 const SheetOverlay = React.forwardRef<
   React.ElementRef<typeof SheetPrimitive.Overlay>,
