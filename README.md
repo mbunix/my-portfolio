@@ -1,5 +1,5 @@
-# Portfolio - Amos Mwongela 
-Hello 👋, my name is Amos Mwongela and i am Talented Software Engineer, with a passion for creating elegant, robust, and scalable applications.
+# Portfolio - Bellian Otieno
+Hello 👋, my name is Bellian Otieno and i am Talented Software Engineer, with a passion for creating elegant, robust, and scalable applications.
 
 ## Table of Contents
 - [Preview](#preview)
@@ -21,6 +21,6 @@ Hello 👋, my name is Amos Mwongela and i am Talented Software Engineer, with a
  [MIT](/LICENSE)
 
 ## Contact
-- [in](https://linkedin.com/in/mwongess)
-- [X](https://twitter.com/mwongess)
-- [Whatsapp](https://wa.me/+254742971932)
+- [in](https://www.linkedin.com/in/bellian-otieno-b11041192/)
+- [X](https://twitter.com/bellian-dev)
+- [Whatsapp](https://wa.me/+254746266773)
